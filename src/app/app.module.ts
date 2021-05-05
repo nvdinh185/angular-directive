@@ -3,15 +3,19 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { HighlightDirective } from './highlight.directive';
+import { Highlight1Directive } from './highlight1.directive';
 import { ChangeTextDirective } from './change-text.directive';
 import { PramsDirective } from './params.directive';
+import { DirectiveComponent } from './directive/directive.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HighlightDirective,
+    Highlight1Directive,
     ChangeTextDirective,
-    PramsDirective
+    PramsDirective,
+    HighlightDirective,
+    DirectiveComponent
   ],
   imports: [
     BrowserModule
